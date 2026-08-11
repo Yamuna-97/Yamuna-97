@@ -1,0 +1,35 @@
+name: Metrics
+
+on:
+  workflow_dispatch:        # lets you trigger a run manually from the Actions tab
+  schedule:
+    - cron: "0 0 * * *"     # once a day at 00:00 UTC
+  push:
+    branches: ["main"]      # re-render whenever you push to main
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write        # required so the action can commit the SVGs back to this repo
+    steps:
+      # 📌 Starred Topics — With Icons
+      - name: Starred topics (icons)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.topics.icons.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 15
+
+      # 📅 Isometric Commit Calendar — Full Year
+      - name: Isometric commit calendar (full year)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
