@@ -1,16 +1,21 @@
-## Hi there 👋
+# 👋 Hi, I'm Yamuna K
 
-<!--
-**Yamuna-97/Yamuna-97** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+AI & Data Science Student | Full Stack Developer | AI/ML Enthusiast
 
-Here are some ideas to get you started:
+🎓 B.Tech, Artificial Intelligence and Data Science
+📍 Tamil Nadu, India
+🌐 [Portfolio](https://yamuna-97.github.io/portfolio/)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧭 Interests
+Artificial Intelligence · Machine Learning · Computer Vision · Full Stack Development · Data Science
+
+## 🛠️ Technologies
+Python · Java · C · JavaScript · PHP
+React · Node.js · Express · Vite · Tailwind CSS · Bootstrap
+SQL · MongoDB · Git · GitHub
+
+## 📌 Starred Topics
+<img src="./metrics.plugin.topics.icons.svg" alt="Starred Topics" />
+
+## 📅 GitHub Activity
+<img src="./metrics.plugin.isocalendar.fullyear.svg" alt="Isometric Commit Calendar" />
